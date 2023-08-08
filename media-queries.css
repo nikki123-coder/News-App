@@ -1,0 +1,59 @@
+/*media queries*/
+@media screen and (max-width:1024px){
+    h3{
+        font-size: 1.2rem;
+    }
+    .container{
+        max-width: 900px;
+    }
+    
+    .company-logo img{
+        width: 160px;
+       
+    }
+
+    main {
+        padding-block: 30px;
+        
+    }
+    .card {
+        width: 420px;
+        
+    }
+   
+}
+
+
+@media screen and (max-width: 768px){
+    .company-logo img{
+        width: 140px;
+       
+    }
+
+    main {
+        padding-block: 30px;
+        
+    }
+    
+    h3{
+        font-size: 1rem;
+    }
+
+    .nav-toggle{
+        display: block;
+        margin-right: 20px;
+    }
+    .main-nav {
+        overflow: initial;
+        
+    }
+    
+
+    
+}
+
+@media screen and (max-width: 479px){
+    
+        
+    
+}
